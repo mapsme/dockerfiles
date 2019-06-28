@@ -54,7 +54,7 @@ The output will look like this
 2019_06_27__16_36_15  config.ini  generation.log  planet.o5m  planet.o5m.lock  planet.o5m.md5
 ```
 
-B. For example you want to generate 'Russia_Samara Oblast' map. 
+B. For example you want to generate 'Uzbekistan' map. 
 
 0. Make directory for maps generation:
 ```sh
