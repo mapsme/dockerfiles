@@ -14,7 +14,7 @@ Projects$ cd dockerfiles/maps_generator
 ```
 2. Build docker container
 ```sh
-maps_generator$ docker build [--build-arg TAG=release-91] -t maps_generator . 
+maps_generator$ docker build [--build-arg TAG=release-92] -t maps_generator . 
 ```
 The default TAG is master.
 
