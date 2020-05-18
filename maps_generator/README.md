@@ -14,7 +14,7 @@ Projects$ cd dockerfiles/maps_generator
 ```
 2. Build docker container
 ```sh
-maps_generator$ docker build [--build-arg TAG=release-96] -t maps_generator . 
+maps_generator$ docker build [--build-arg TAG=release-100] -t maps_generator . 
 ```
 The default TAG is master.
 
@@ -42,7 +42,7 @@ SUBWAY_URL: http://osm-subway.maps.me/mapsme/latest.json
 
 2. Run docker cantainer:
 ```sh
-Projects$ docker run -v ~/Projects/generation:/mapsme/generation: --rm -t maps_generator --config=/mapsme/generation/config.ini --countries="Russia_Samara Oblast" --skip="coastline"
+Projects$ docker run -v ~/Projects/generation:/mapsme/generation: --rm -t maps_generator --config=/mapsme/generation/config.ini --countries="Russia_Samara Oblast" --skip="Coastline"
 ```
 
 3. Check maps:
@@ -77,7 +77,7 @@ SUBWAY_URL: http://osm-subway.maps.me/mapsme/latest.json
 
 2. Run docker cantainer:
 ```sh
-Projects$ docker run -v ~/Projects/generation:/mapsme/generation: --rm -t maps_generator --config=/mapsme/generation/config.ini --countries="Uzbekistan" --skip="coastline"
+Projects$ docker run -v ~/Projects/generation:/mapsme/generation: --rm -t maps_generator --config=/mapsme/generation/config.ini --countries="Uzbekistan" --skip="Coastline"
 ```
 
 3. Check maps:
