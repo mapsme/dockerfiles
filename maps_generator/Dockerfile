@@ -4,6 +4,9 @@ MAINTAINER Maksim Andrianov <m.andrianov@corp.mail.ru>
 
 ARG TAG=master
 
+ENV LANG C.UTF-8
+ENV LC_ALL C.UTF-8
+
 RUN apt-get update && apt-get install -y \
 	build-essential \
 	cmake \
