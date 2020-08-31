@@ -25,7 +25,7 @@ RUN git clone -b ${TAG} --single-branch --recurse-submodules -j8  https://github
 
 RUN echo "" | ./omim/configure.sh \
 	&& ./omim/tools/unix/build_omim.sh -rs generator_tool \ 
-	&& pip3 install -r omim/tools/python/maps_generator/requirements.txt
+	&& pip3 install -r omim/tools/python/maps_generator/requirements_dev.txt
 
 
 RUN useradd -d /mapsme -s /bin/bash mapsme \
